@@ -41,7 +41,7 @@ export default function SplitScreen() {
             </Heading>
             <Text fontSize={{ base: "md", lg: "lg" }} color={"gray.500"}>
               Na Pós-graduação em Gestão de Negócios da Fundação Dom Cabral,
-              você vai aprender com uma instituição de excelência mundial e
+              você vai aprender com uma instituição de excelência mundial para
               fazer sua empresa subir de patamar e ser mais relevante no
               mercado!
             </Text>

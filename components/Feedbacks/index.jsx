@@ -138,6 +138,60 @@ export default function Feedbacks() {
             />
           </Testimonial>
         </Stack>
+        <Stack
+          direction={{ base: "column", md: "row" }}
+          spacing={{ base: 10, md: 4, lg: 10 }}
+        >
+          <Testimonial>
+            <TestimonialContent>
+              <TestimonialText>
+                Fiquei muito feliz quando, além de ferramentas de gerenciamento,
+                pude- mos ter uma abordagem mais profunda na questao emocional,
+                na transformação de mentalidade do ser humano e viven- ciar com
+                pessoas de várias formaçoes e experiências.
+              </TestimonialText>
+            </TestimonialContent>
+            <TestimonialAvatar
+              src={"/assets/testimonials/Laianny.png"}
+              name={"Dra. Laianny Carvalho"}
+              title={"CEO do Instituto Dra. Laianny Carvalho"}
+            />
+          </Testimonial>
+          <Testimonial>
+            <TestimonialContent>
+              <TestimonialText>
+                O curso de Pós-Graduaçáo em Gestão de Negócios da FDC me ajudou
+                a refinar o foco e ser mais convicto quanto aos conteúdos da
+                gestão. Aprendi a colocar em prática as ideias que eu tinha para
+                os negócios da família, minimizando riscos e garantindo melhores
+                resultados. Um benefício adicional é o networking.
+              </TestimonialText>
+            </TestimonialContent>
+            <TestimonialAvatar
+              src={"/assets/testimonials/Buhatam.png"}
+              name={"Yann Buhatem"}
+              title={"Sócio Diretor do Grupo Taipan"}
+            />
+          </Testimonial>
+          <Testimonial>
+            <TestimonialContent>
+              <TestimonialText>
+                Primeiro que a turma da pós-graduação em gestão de negócios é
+                topíssima! Essa questão de colocar junto pessoas que tem os
+                mesmos interesses, os mesmos objetivos, as mesmas vivências é
+                sensacional! A gente troca muita figurinha, compartilha muitas
+                experiências, já tem gente que é meu parceiro de trabalho dentro
+                de empresas que a gente presta serviços. Então, tem
+                sido maravilhoso.
+              </TestimonialText>
+            </TestimonialContent>
+            <TestimonialAvatar
+              src={"/assets/testimonials/Carol.png"}
+              name={"Caroline Brito"}
+              title={"Diretora Financeira do Supermercado Universo"}
+            />
+          </Testimonial>
+        </Stack>
       </Container>
     </Box>
   );
