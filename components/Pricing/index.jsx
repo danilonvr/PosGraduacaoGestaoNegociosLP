@@ -2,19 +2,13 @@ import React from "react";
 import {
   Button,
   Flex,
-  Heading,
-  Image,
   Stack,
   Text,
   Box,
-  Container,
   SimpleGrid,
   Icon,
-  HStack,
-  VStack,
   useColorModeValue,
 } from "@chakra-ui/react";
-import { CheckIcon } from "@chakra-ui/icons";
 function Pricing() {
   const topBg = useColorModeValue("gray.100", "gray.700");
   const bottomBg = useColorModeValue("white", "gray.800");
@@ -64,7 +58,7 @@ function Pricing() {
       _dark={{
         bg: "gray.600",
       }}
-      p={10}
+      p={{ base: 0, md: 10 }}
       alignItems="center"
       justifyContent="center"
     >
@@ -84,24 +78,19 @@ function Pricing() {
             <Text
               as="h2"
               mb={2}
-              fontSize="5xl"
+              fontSize={{
+                base: "4xl",
+                md: "5xl",
+              }}
               fontWeight="bold"
               lineHeight="tight"
               color={useColorModeValue("gray.700", "white")}
-            >
-              Simple transparent pricing
-            </Text>
-            <Text
-              as="span"
-              mb={6}
-              fontSize={["lg", , "xl"]}
-              color="gray.600"
-              _dark={{
-                color: "gray.400",
+              align={{
+                base: "center",
+                md: "center",
               }}
             >
-              If you're not satisfied, contact us and we'll refund you within
-              the first 20 days.
+              Essa é a nossa oferta pra você
             </Text>
           </Box>
           <Box bgGradient={`linear(to-b, ${topBg} 50%, ${bottomBg} 50%)`}>
@@ -119,29 +108,9 @@ function Pricing() {
             >
               <Stack spacing={8} p="45px" flex="0.7">
                 <Text fontSize="3xl" fontWeight="bold" lineHeight="tight">
-                  Lifetime Membership
-                </Text>
-                <Text
-                  fontSize={["sm", , "md"]}
-                  color="gray.600"
-                  _dark={{
-                    color: "gray.400",
-                  }}
-                >
-                  One plan for any organization—from startups to Fortune 500s.
-                  We offer 50% off of for all students and universities. Please
-                  get in touch with us and provide proof of your status.
+                  Informações Complementares
                 </Text>
                 <Flex align="center">
-                  <Text
-                    fontFamily="body"
-                    whiteSpace="nowrap"
-                    fontWeight="semibold"
-                    textTransform="uppercase"
-                    color="brand.400"
-                  >
-                    What's included
-                  </Text>
                   <Flex
                     ml="15px"
                     w="full"
@@ -151,10 +120,19 @@ function Pricing() {
                   />
                 </Flex>
                 <SimpleGrid columns={[1, , 2, 1, 2]} spacingY={4}>
-                  <Feature>Unlimited Projects</Feature>
-                  <Feature>Email Tracking and Analytics </Feature>
-                  <Feature>Email APIs, SMTP Relay, and Webhooks</Feature>
-                  <Feature>1 Dedicated IP (Foundation 100k and up)</Feature>
+                  <Feature>Temos política de desconto para grupos!</Feature>
+                  <Feature>
+                    Pagamento entre 4 a 24 meses incidem juros de 0,65% ao mês*{" "}
+                  </Feature>
+                  <Feature>
+                    O curso será realizado na modalidade presencial, com
+                    encontros em São Luís, no Maranhão.
+                  </Feature>
+                  <Feature>
+                    Caso tenha alguma dúvida sobre o programa, entre em contato
+                    com o INAED, Associado da Fundação Dom Cabral no Maranhão e
+                    Piauí.
+                  </Feature>
                 </SimpleGrid>
               </Stack>
               <Stack
@@ -169,18 +147,24 @@ function Pricing() {
                 borderRightRadius="md"
               >
                 <Text fontSize="xl" fontWeight="semibold">
-                  Pay once, use anytime
+                  Preço Exclusivo
                 </Text>
                 <Flex
                   align="center"
-                  fontSize="5xl"
+                  fontSize={{
+                    base: "xl",
+                    md: "5xl",
+                  }}
                   fontWeight={["bold", , "extrabold"]}
                   lineHeight="tight"
                 >
-                  $500
+                  R$ 39.590,10
                   <Text
                     ml={2}
-                    fontSize="2xl"
+                    fontSize={{
+                      base: "lg",
+                      md: "2xl",
+                    }}
                     fontWeight="medium"
                     color="gray.500"
                     _dark={{
@@ -188,7 +172,7 @@ function Pricing() {
                     }}
                   >
                     {" "}
-                    USD
+                    À vista
                   </Text>
                 </Flex>
                 <Stack spacing={6}>
@@ -199,13 +183,19 @@ function Pricing() {
                       color: "gray.400",
                     }}
                   >
-                    Learn more about our membership
+                    Parcelado em até 3x sem juros, com desconto de 10%
                   </Text>
-                  <Button w="300px" colorScheme="brand" py={6}>
-                    Get Access
+                  <Button
+                    w="300px"
+                    colorScheme="blue"
+                    py={6}
+                    width={"full"}
+                    fontWeight={"bold"}
+                  >
+                    Converse com um especialista
                   </Button>
-                  <Text align="center" fontWeight="semibold">
-                    Get a free sample
+                  <Box align="center" fontWeight="semibold">
+                    Início em: 25/08/2023
                     <Text
                       ml={2}
                       color="gray.500"
@@ -214,9 +204,9 @@ function Pricing() {
                       }}
                       fontWeight="medium"
                     >
-                      (50MB)
+                      Não perca!
                     </Text>
-                  </Text>
+                  </Box>
                 </Stack>
               </Stack>
             </Flex>

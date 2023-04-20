@@ -84,8 +84,7 @@ export default function Feedbacks() {
     <Box bg={useColorModeValue("gray.100", "gray.700")}>
       <Container maxW={"7xl"} py={16} as={Stack} spacing={12}>
         <Stack spacing={0} align={"center"}>
-          <Heading>Our Clients Speak</Heading>
-          <Text>We have been working with clients around the world</Text>
+          <Heading>O que falam sobre o programa?</Heading>
         </Stack>
         <Stack
           direction={{ base: "column", md: "row" }}
@@ -93,50 +92,49 @@ export default function Feedbacks() {
         >
           <Testimonial>
             <TestimonialContent>
-              <TestimonialHeading>Efficient Collaborating</TestimonialHeading>
               <TestimonialText>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor
-                neque sed imperdiet nibh lectus feugiat nunc sem.
+                Fiquei muito feliz quando, além de ferramentas de gerenciamento,
+                pude- mos ter uma abordagem mais profunda na questao emocional,
+                na transformação de mentalidade do ser humano e viven- ciar com
+                pessoas de várias formaçoes e experiências.
               </TestimonialText>
             </TestimonialContent>
             <TestimonialAvatar
-              src={
-                "https://images.unsplash.com/photo-1586297135537-94bc9ba060aa?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80"
-              }
-              name={"Jane Cooper"}
-              title={"CEO at ABC Corporation"}
+              src={"/assets/testimonials/Laianny.png"}
+              name={"Dra. Laianny Carvalho"}
+              title={"CEO do Instituto Dra. Laianny Carvalho"}
             />
           </Testimonial>
           <Testimonial>
             <TestimonialContent>
-              <TestimonialHeading>Intuitive Design</TestimonialHeading>
               <TestimonialText>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor
-                neque sed imperdiet nibh lectus feugiat nunc sem.
+                O curso de Pós-Graduaçáo em Gestão de Negócios da FDC me ajudou
+                a refinar o foco e ser mais convicto quanto aos conteúdos da
+                gestão. Aprendi a colocar em prática as ideias que eu tinha para
+                os negócios da família, minimizando riscos e garantindo melhores
+                resultados. Um benefício adicional é o networking.
               </TestimonialText>
             </TestimonialContent>
             <TestimonialAvatar
-              src={
-                "https://images.unsplash.com/photo-1586297135537-94bc9ba060aa?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80"
-              }
-              name={"Jane Cooper"}
-              title={"CEO at ABC Corporation"}
+              src={"/assets/testimonials/Buhatam.png"}
+              name={"Yann Buhatem"}
+              title={"Sócio Diretor do Grupo Taipan"}
             />
           </Testimonial>
           <Testimonial>
             <TestimonialContent>
-              <TestimonialHeading>Mindblowing Service</TestimonialHeading>
               <TestimonialText>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor
-                neque sed imperdiet nibh lectus feugiat nunc sem.
+                O time de professores é espetacular. Todos eles têm muita
+                experiência e um currículo invejável. Boa parte do curso foi
+                realmente muito aplicável e era o que eu buscava em um programa
+                de Pós-Graduaçao. Minha experiência foi 100% positiva.
+                Recomendo.
               </TestimonialText>
             </TestimonialContent>
             <TestimonialAvatar
-              src={
-                "https://images.unsplash.com/photo-1586297135537-94bc9ba060aa?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80"
-              }
-              name={"Jane Cooper"}
-              title={"CEO at ABC Corporation"}
+              src={"/assets/testimonials/Carol.png"}
+              name={"Caroline Brito"}
+              title={"Diretora Financeira do Supermercado Universo"}
             />
           </Testimonial>
         </Stack>
