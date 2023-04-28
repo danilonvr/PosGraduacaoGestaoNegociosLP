@@ -145,49 +145,61 @@ export default function Feedbacks() {
           <Testimonial>
             <TestimonialContent>
               <TestimonialText>
-                Fiquei muito feliz quando, além de ferramentas de gerenciamento,
-                pude- mos ter uma abordagem mais profunda na questao emocional,
-                na transformação de mentalidade do ser humano e viven- ciar com
-                pessoas de várias formaçoes e experiências.
+                Quando comecei a empreender, conheci outros empreendedores e
+                quando saía com eles escutava uma linguagem diferente,
+                relacionado a finanças e pensava "nossa, como assim?". Aí vi que
+                era hora de fazer uma pós em gestão para me desenvolver como
+                gestora, já que minha área de formação é a Farmácia. Estou
+                gostando bastante! A troca de experiências, os professores que
+                são convidados a dar aulas pra gente também são maravilhosos.
+                Além disso, a troca que você tem com os alunos, com
+                profissionais de outras áreas, sem dúvidas contribui bastante.
               </TestimonialText>
             </TestimonialContent>
             <TestimonialAvatar
               src={"/assets/testimonials/Laianny.png"}
-              name={"Dra. Laianny Carvalho"}
+              name={"Brenda Azevedo"}
               title={"CEO do Instituto Dra. Laianny Carvalho"}
             />
           </Testimonial>
           <Testimonial>
             <TestimonialContent>
               <TestimonialText>
-                O curso de Pós-Graduaçáo em Gestão de Negócios da FDC me ajudou
-                a refinar o foco e ser mais convicto quanto aos conteúdos da
-                gestão. Aprendi a colocar em prática as ideias que eu tinha para
-                os negócios da família, minimizando riscos e garantindo melhores
-                resultados. Um benefício adicional é o networking.
+                Praticamente 80% das lacunas que ficaram no passado, de eu não
+                entender o porquê tinha errado em muitos pontos, eu consegui
+                esclarecer depois que entrei nessa turma, depois que eu tive
+                contato com os professores e com a própria turma da
+                pós-graduação da Dom Cabral. Então, eu consegui entender muita
+                coisa, consegui assimilar e consigo diariamente melhorar com
+                aquilo que tenho visto. As trocas que temos dentro da turma
+                (onde há grandes empresários) me fez enxergar coisas que talvez
+                eu sozinho, até mesmo lendo os melhores livros, não conseguiria
+                enxergar. Porque uma troca como essa não existe em qualquer
+                lugar.
               </TestimonialText>
             </TestimonialContent>
             <TestimonialAvatar
               src={"/assets/testimonials/Buhatam.png"}
-              name={"Yann Buhatem"}
+              name={"Carlos Veras"}
               title={"Sócio Diretor do Grupo Taipan"}
             />
           </Testimonial>
           <Testimonial>
             <TestimonialContent>
               <TestimonialText>
-                Primeiro que a turma da pós-graduação em gestão de negócios é
-                topíssima! Essa questão de colocar junto pessoas que tem os
-                mesmos interesses, os mesmos objetivos, as mesmas vivências é
-                sensacional! A gente troca muita figurinha, compartilha muitas
-                experiências, já tem gente que é meu parceiro de trabalho dentro
-                de empresas que a gente presta serviços. Então, tem
-                sido maravilhoso.
+                Eu acho que é importantíssimo todo gestor buscar se atualizar.
+                Todo gestor, que quer levar seu negócio a outro patamar, não
+                pode parar no tempo, tem que se atualizar. Estou percebendo que
+                estou me atualizando e estou sempre sendo provocado. Eu gosto
+                muito de botar em prática tudo o que aprendo. Então, toda aula
+                eu não fico só ouvindo, fico também fazendo muitas anotações,
+                inclusive assim: 'o que vou fazer na semana que vem na minha
+                empresa em relação a essa aula'.
               </TestimonialText>
             </TestimonialContent>
             <TestimonialAvatar
               src={"/assets/testimonials/Carol.png"}
-              name={"Caroline Brito"}
+              name={"Victor Marques"}
               title={"Diretora Financeira do Supermercado Universo"}
             />
           </Testimonial>
