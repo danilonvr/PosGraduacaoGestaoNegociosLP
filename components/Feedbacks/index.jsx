@@ -147,7 +147,7 @@ export default function Feedbacks() {
               <TestimonialText>
                 Quando comecei a empreender, conheci outros empreendedores e
                 quando saía com eles escutava uma linguagem diferente,
-                relacionado a finanças e pensava "nossa, como assim?". Aí vi que
+                relacionado a finanças e pensava &quot;nossa, como assim?&quot;. Aí vi que
                 era hora de fazer uma pós em gestão para me desenvolver como
                 gestora, já que minha área de formação é a Farmácia. Estou
                 gostando bastante! A troca de experiências, os professores que
