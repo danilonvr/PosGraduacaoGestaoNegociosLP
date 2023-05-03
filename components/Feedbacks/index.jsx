@@ -87,7 +87,7 @@ export default function Feedbacks() {
           <Heading>O que falam sobre o programa?</Heading>
         </Stack>
         <Stack
-          direction={{ base: "column", md: "row" }}
+          direction={{ base: "column", xl: "row" }}
           spacing={{ base: 10, md: 4, lg: 10 }}
         >
           <Testimonial>
@@ -139,21 +139,17 @@ export default function Feedbacks() {
           </Testimonial>
         </Stack>
         <Stack
-          direction={{ base: "column", md: "row" }}
+          direction={{ base: "column", xl: "row" }}
           spacing={{ base: 10, md: 4, lg: 10 }}
         >
           <Testimonial>
             <TestimonialContent>
               <TestimonialText>
-                Quando comecei a empreender, conheci outros empreendedores e
-                quando saía com eles escutava uma linguagem diferente,
-                relacionado a finanças e pensava &quot;nossa, como assim?&quot;. Aí vi que
-                era hora de fazer uma pós em gestão para me desenvolver como
-                gestora, já que minha área de formação é a Farmácia. Estou
-                gostando bastante! A troca de experiências, os professores que
-                são convidados a dar aulas pra gente também são maravilhosos.
-                Além disso, a troca que você tem com os alunos, com
-                profissionais de outras áreas, sem dúvidas contribui bastante.
+                Estou gostando bastante! A troca de experiências, os professores
+                que são convidados a dar aulas pra gente também são
+                maravilhosos. Além disso, a troca que você tem com os alunos,
+                com profissionais de outras áreas, sem dúvidas contribui
+                bastante.
               </TestimonialText>
             </TestimonialContent>
             <TestimonialAvatar
@@ -165,17 +161,11 @@ export default function Feedbacks() {
           <Testimonial>
             <TestimonialContent>
               <TestimonialText>
-                Praticamente 80% das lacunas que ficaram no passado, de eu não
-                entender o porquê tinha errado em muitos pontos, eu consegui
-                esclarecer depois que entrei nessa turma, depois que eu tive
-                contato com os professores e com a própria turma da
-                pós-graduação da Dom Cabral. Então, eu consegui entender muita
-                coisa, consegui assimilar e consigo diariamente melhorar com
-                aquilo que tenho visto. As trocas que temos dentro da turma
-                (onde há grandes empresários) me fez enxergar coisas que talvez
-                eu sozinho, até mesmo lendo os melhores livros, não conseguiria
-                enxergar. Porque uma troca como essa não existe em qualquer
-                lugar.
+                As trocas que temos dentro da turma, tanto com os professores
+                quanto com os colegas, que são grandes empresários, me fez
+                enxergar coisas que talvez eu sozinho, até mesmo lendo os
+                melhores livros, não conseguiria enxergar. Porque uma troca como
+                essa não existe em qualquer lugar.
               </TestimonialText>
             </TestimonialContent>
             <TestimonialAvatar
@@ -190,16 +180,65 @@ export default function Feedbacks() {
                 Eu acho que é importantíssimo todo gestor buscar se atualizar.
                 Todo gestor, que quer levar seu negócio a outro patamar, não
                 pode parar no tempo, tem que se atualizar. Estou percebendo que
-                estou me atualizando e estou sempre sendo provocado. Eu gosto
-                muito de botar em prática tudo o que aprendo. Então, toda aula
-                eu não fico só ouvindo, fico também fazendo muitas anotações,
-                inclusive assim: &quot;o que vou fazer na semana que vem na minha
-                empresa em relação a essa aula&quot;.
+                na pós-graduação da FDC estou me atualizando e sempre sendo
+                provocado.
               </TestimonialText>
             </TestimonialContent>
             <TestimonialAvatar
               src={"/assets/testimonials/Carol.png"}
               name={"Victor Marques"}
+              title={"Diretora Financeira do Supermercado Universo"}
+            />
+          </Testimonial>
+        </Stack>
+        <Stack
+          direction={{ base: "column", xl: "row" }}
+          spacing={{ base: 10, md: 4, lg: 10 }}
+        >
+          <Testimonial>
+            <TestimonialContent>
+              <TestimonialText>
+                A pós me deu um arcabouço de conhecimento muito grande, tanto
+                pelos nossos incríveis professores, quanto por estar junto com
+                colegas que tem muito a mesma situação que eu, são sucessores ou
+                donos de empresa. A gente troca muito, aprende muito com isso.
+              </TestimonialText>
+            </TestimonialContent>
+            <TestimonialAvatar
+              src={"/assets/testimonials/Carol.png"}
+              name={"Luana Carvalho"}
+              title={"Diretora Financeira do Supermercado Universo"}
+            />
+          </Testimonial>
+          <Testimonial>
+            <TestimonialContent>
+              <TestimonialText>
+                Realmente me surpreendeu muito, porque essa é a minha quinta
+                especialização e é totalmente além das minhas expectativas.
+                Muito diferente e muito focado, realmente. Os professores nos
+                mostram que há muitas coisas que a gente não está vendo aí no
+                mercado e que precisa estar antenado.
+              </TestimonialText>
+            </TestimonialContent>
+            <TestimonialAvatar
+              src={"/assets/testimonials/Carol.png"}
+              name={"Lourdiane Sousa"}
+              title={"Diretora Financeira do Supermercado Universo"}
+            />
+          </Testimonial>
+          <Testimonial>
+            <TestimonialContent>
+              <TestimonialText>
+                Não tem jeito: para empreender, tem que aprender. A
+                pós-graduação da FDC é determinante para quem quer ser um
+                empreendedor de sucesso porque a gente aprende muito. A gente vê
+                coisas que a gente fazia mas não sabia o porquê ou descobre as
+                coisas que deveria fazer e nunca fizemos.
+              </TestimonialText>
+            </TestimonialContent>
+            <TestimonialAvatar
+              src={"/assets/testimonials/Carol.png"}
+              name={"Hildenê Bastos"}
               title={"Diretora Financeira do Supermercado Universo"}
             />
           </Testimonial>
