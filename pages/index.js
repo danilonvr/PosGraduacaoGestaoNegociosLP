@@ -22,6 +22,7 @@ import {
 } from "@chakra-ui/react";
 import { CheckIcon } from "@chakra-ui/icons";
 import Pricing from "@/components/Pricing";
+import SliderEmp from "@/components/SliderEmp";
 
 export default function SplitScreen() {
   const targetDate = "2023-06-25T23:59:59";
@@ -283,6 +284,7 @@ export default function SplitScreen() {
       </Box>
       <AccordionComponent />
       <Feedbacks />
+      <SliderEmp />
       <AboutFDC />
       <Pricing />
       <Footer />
