@@ -8,7 +8,9 @@ import {
   SimpleGrid,
   Icon,
   useColorModeValue,
+  Link,
 } from "@chakra-ui/react";
+import NextLink from "next/link";
 function Pricing() {
   const topBg = useColorModeValue("gray.100", "gray.700");
   const bottomBg = useColorModeValue("white", "gray.800");
@@ -73,7 +75,7 @@ function Pricing() {
         w="full"
         bg={bottomBg}
       >
-        <Box pt={20} rounded="md" bg={topBg}>
+        <Box pt={20} rounded="md" bg={topBg} id="inscricao">
           <Box w="full" px={[10, , 4]} mx="auto">
             <Text
               as="h2"
@@ -185,15 +187,20 @@ function Pricing() {
                   >
                     Parcelado em até 3x sem juros, com desconto de 10%
                   </Text>
-                  <Button
-                    w="300px"
-                    colorScheme="blue"
-                    py={6}
-                    width={"full"}
-                    fontWeight={"bold"}
+                  <Link
+                    as={NextLink}
+                    href="https://inscricao.fdc.org.br/FichaInscricao.aspx?CrmLanguage=pt&CrmProg=%7b0809911C-341D-E111-BCE3-00505698001D%7d&CrmEd=855c1add-30dd-ed11-b221-00505698001d "
                   >
-                    Converse com um especialista
-                  </Button>
+                    <Button
+                      w="300px"
+                      colorScheme="blue"
+                      py={6}
+                      width={"full"}
+                      fontWeight={"bold"}
+                    >
+                      Quero me inscrever!
+                    </Button>
+                  </Link>
                   <Box align="center" fontWeight="semibold">
                     Início em: 25/08/2023
                     <Text

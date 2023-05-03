@@ -5,6 +5,7 @@ import Slider from "@/components/Slider";
 import AccordionComponent from "@/components/Accordion";
 import AboutFDC from "@/components/AboutFDC";
 import CountdownTimer from "@/components/CountdownTimer";
+import NextLink from "next/link";
 import {
   Button,
   Flex,
@@ -19,6 +20,7 @@ import {
   HStack,
   VStack,
   useColorModeValue,
+  Link,
 } from "@chakra-ui/react";
 import { CheckIcon } from "@chakra-ui/icons";
 import Pricing from "@/components/Pricing";
@@ -48,6 +50,8 @@ export default function SplitScreen() {
             </Text>
             <Stack direction={{ base: "column", md: "row" }} spacing={4}>
               <Button
+                as="a"
+                href="#inscricao"
                 width={"full"}
                 h={"12"}
                 rounded={"lg"}
@@ -178,6 +182,7 @@ export default function SplitScreen() {
                 </Text>
               </Box>
               <Text />
+
               <Button
                 w={{
                   base: "full",
@@ -197,6 +202,7 @@ export default function SplitScreen() {
                 color="gray.100"
                 as="a"
                 fontWeight="bold"
+                href="#inscricao"
               >
                 Fale com um especialista
               </Button>
