@@ -204,7 +204,7 @@ export default function SplitScreen() {
                 fontWeight="bold"
                 href="#inscricao"
               >
-                Fale com um especialista
+                Quero garantir a minha vaga!
               </Button>
             </Box>
           </SimpleGrid>
