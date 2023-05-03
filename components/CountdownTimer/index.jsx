@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import { Text } from "@chakra-ui/react";
-import moment from "moment";
 
 const CountdownTimer = ({ targetDate }) => {
   const [remainingTime, setRemainingTime] = useState(calculateRemainingTime());
@@ -13,16 +12,18 @@ const CountdownTimer = ({ targetDate }) => {
   }, []);
 
   function calculateRemainingTime() {
-    const now = moment();
-    const target = moment(targetDate);
-    const diff = target.diff(now);
-    return moment.duration(diff);
+    const now = new Date();
+    const target = new Date(targetDate);
+    const diff = target - now;
+    return {
+      days: Math.floor(diff / (1000 * 60 * 60 * 24)),
+      hours: Math.floor((diff / (1000 * 60 * 60)) % 24),
+      minutes: Math.floor((diff / (1000 * 60)) % 60),
+      seconds: Math.floor((diff / 1000) % 60),
+    };
   }
 
-  const days = remainingTime.days();
-  const hours = remainingTime.hours();
-  const minutes = remainingTime.minutes();
-
+  const { days, hours, minutes } = remainingTime;
   return (
     <Text fontWeight={"bold"} fontSize={"2xl"}>
       Corra! Você possui apenas {days} dias, {hours} horas e {minutes} minutos
