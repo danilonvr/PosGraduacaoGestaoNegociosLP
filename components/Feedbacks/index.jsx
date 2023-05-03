@@ -193,8 +193,8 @@ export default function Feedbacks() {
                 estou me atualizando e estou sempre sendo provocado. Eu gosto
                 muito de botar em prática tudo o que aprendo. Então, toda aula
                 eu não fico só ouvindo, fico também fazendo muitas anotações,
-                inclusive assim: 'o que vou fazer na semana que vem na minha
-                empresa em relação a essa aula'.
+                inclusive assim: &quot;o que vou fazer na semana que vem na minha
+                empresa em relação a essa aula&quot;.
               </TestimonialText>
             </TestimonialContent>
             <TestimonialAvatar
