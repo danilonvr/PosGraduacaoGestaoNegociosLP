@@ -1,11 +1,15 @@
 import React from "react";
 import Slider from "react-slick";
-import { Box, Image, Flex } from "@chakra-ui/react";
+import { Box, Image, Flex, Text } from "@chakra-ui/react";
 import styled from "styled-components";
 
 const StyledSlider = styled(Slider)`
-  .slick-slide {
+  .logo-slide {
     margin: 0 -80px;
+  }
+  .slick-slide {
+    display: flex;
+    align-items: center;
   }
 `;
 
@@ -49,45 +53,35 @@ export default function SliderEmp() {
   };
   return (
     <Box p={4}>
+      <Text textAlign={"center"} fontSize={"4xl"} fontWeight={"bold"} mb={8}>
+        Empresas que já participaram
+      </Text>
       <StyledSlider {...settings}>
         <Flex justifyContent={"center"} align={"center"}>
-          <Image src="/assets/slick/1.jpeg" w={"100px"} h={"100px"} />
+          <Image
+            src="/assets/logo/LogoBioformula.png"
+            w={"100px"}
+            h={"100px"}
+          />
         </Flex>
         <Flex justifyContent={"center"}>
-          <Image src="/assets/slick/2.jpg" w={"100px"} h={"100px"} />
+          <Image src="/assets/logo/LogoIluminar.png" w={"100px"} h={"100px"} />
         </Flex>
         <Flex justifyContent={"center"}>
-          <Image src="/assets/slick/3.jpg" w={"100px"} h={"100px"} />
+          <Image
+            src="/assets/logo/LogoPersonalitte.png"
+            w={"100px"}
+            h={"100px"}
+          />
         </Flex>
         <Flex justifyContent={"center"}>
-          <Image src="/assets/slick/4.jpeg" w={"100px"} h={"100px"} />
+          <Image src="/assets/logo/LogoAçofyber.jpg" w={"100px"} h={"100px"} />
         </Flex>
         <Flex justifyContent={"center"}>
-          <Image src="/assets/slick/5.jpeg" w={"100px"} h={"100px"} />
+          <Image src="/assets/logo/Logokairos.webp" w={"100px"} h={"100px"} />
         </Flex>
         <Flex justifyContent={"center"}>
-          <Image src="/assets/slick/6.jpeg" w={"100px"} h={"100px"} />
-        </Flex>
-        <Flex justifyContent={"center"}>
-          <Image src="/assets/slick/7.jpeg" w={"100px"} h={"100px"} />
-        </Flex>
-        <Flex justifyContent={"center"}>
-          <Image src="/assets/slick/8.jpeg" w={"100px"} h={"100px"} />
-        </Flex>
-        <Flex justifyContent={"center"}>
-          <Image src="/assets/slick/9.jpg" w={"100px"} h={"100px"} />
-        </Flex>
-        <Flex justifyContent={"center"}>
-          <Image src="/assets/slick/10.jpg" w={"100px"} h={"100px"} />
-        </Flex>
-        <Flex justifyContent={"center"}>
-          <Image src="/assets/slick/11.jpg" w={"100px"} h={"100px"} />
-        </Flex>
-        <Flex justifyContent={"center"}>
-          <Image src="/assets/slick/12.jpg" w={"100px"} h={"100px"} />
-        </Flex>
-        <Flex justifyContent={"center"}>
-          <Image src="/assets/slick/13.jpg" w={"100px"} h={"100px"} />
+          <Image src="/assets/logo/LogoLaianny.jpg" w={"100px"} h={"100px"} />
         </Flex>
       </StyledSlider>
     </Box>

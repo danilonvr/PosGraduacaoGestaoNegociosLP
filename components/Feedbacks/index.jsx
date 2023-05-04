@@ -153,9 +153,9 @@ export default function Feedbacks() {
               </TestimonialText>
             </TestimonialContent>
             <TestimonialAvatar
-              src={"/assets/testimonials/Laianny.png"}
+              src={"/assets/testimonials/bruna.jpg"}
               name={"Brenda Azevedo"}
-              title={"CEO do Instituto Dra. Laianny Carvalho"}
+              title={"CEO da Biofórmula"}
             />
           </Testimonial>
           <Testimonial>
@@ -169,9 +169,9 @@ export default function Feedbacks() {
               </TestimonialText>
             </TestimonialContent>
             <TestimonialAvatar
-              src={"/assets/testimonials/Buhatam.png"}
+              src={"/assets/testimonials/carlos.jpg"}
               name={"Carlos Veras"}
-              title={"Sócio Diretor do Grupo Taipan"}
+              title={"CEO da CAVES Engenharia"}
             />
           </Testimonial>
           <Testimonial>
@@ -185,9 +185,9 @@ export default function Feedbacks() {
               </TestimonialText>
             </TestimonialContent>
             <TestimonialAvatar
-              src={"/assets/testimonials/Carol.png"}
+              src={"/assets/testimonials/vitor.jpg"}
               name={"Victor Marques"}
-              title={"Diretora Financeira do Supermercado Universo"}
+              title={"CEO da Revest"}
             />
           </Testimonial>
         </Stack>
@@ -205,9 +205,9 @@ export default function Feedbacks() {
               </TestimonialText>
             </TestimonialContent>
             <TestimonialAvatar
-              src={"/assets/testimonials/Carol.png"}
+              src={"/assets/testimonials/luana.jpg"}
               name={"Luana Carvalho"}
-              title={"Diretora Financeira do Supermercado Universo"}
+              title={"Diretora de Ensino do Ana Neri"}
             />
           </Testimonial>
           <Testimonial>
@@ -221,9 +221,9 @@ export default function Feedbacks() {
               </TestimonialText>
             </TestimonialContent>
             <TestimonialAvatar
-              src={"/assets/testimonials/Carol.png"}
+              src={"/assets/testimonials/lourdiane.jpg"}
               name={"Lourdiane Sousa"}
-              title={"Diretora Financeira do Supermercado Universo"}
+              title={"Diretora da Açofyber"}
             />
           </Testimonial>
           <Testimonial>
@@ -237,9 +237,9 @@ export default function Feedbacks() {
               </TestimonialText>
             </TestimonialContent>
             <TestimonialAvatar
-              src={"/assets/testimonials/Carol.png"}
+              src={"/assets/testimonials/hildene.jpg"}
               name={"Hildenê Bastos"}
-              title={"Diretora Financeira do Supermercado Universo"}
+              title={" CEO da Personalitté"}
             />
           </Testimonial>
         </Stack>
