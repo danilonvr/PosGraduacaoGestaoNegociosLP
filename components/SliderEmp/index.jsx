@@ -77,12 +77,7 @@ export default function SliderEmp() {
         <Flex justifyContent={"center"}>
           <Image src="/assets/logo/LogoAçofyber.jpg" w={"100px"} h={"100px"} />
         </Flex>
-        <Flex justifyContent={"center"}>
-          <Image src="/assets/logo/LogoKairos.png" w={"100px"} h={"100px"} />
-        </Flex>
-        <Flex justifyContent={"center"}>
-          <Image src="/assets/logo/LogoLaianny.png" w={"100px"} h={"100px"} />
-        </Flex>
+
         <Flex justifyContent={"center"}>
           <Image src="/assets/logo/potiguar.webp" w={"100px"} h={"100px"} />
         </Flex>

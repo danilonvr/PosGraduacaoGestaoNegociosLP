@@ -18,6 +18,7 @@ import {
   Td,
   TableCaption,
   TableContainer,
+  Button,
 } from "@chakra-ui/react";
 
 function AccordionComponent() {
@@ -414,6 +415,31 @@ function AccordionComponent() {
             </AccordionPanel>
           </AccordionItem>
         </Accordion>
+        <Box mt={8} display={"flex"} justifyContent={"center"}>
+          <Button
+            w={{
+              base: "full",
+              xl: "auto",
+            }}
+            size="lg"
+            bg="blue.700"
+            _dark={{
+              bg: "blue.600",
+            }}
+            _hover={{
+              bg: "blue.700",
+              _dark: {
+                bg: "gray.600",
+              },
+            }}
+            color="gray.100"
+            as="a"
+            fontWeight="bold"
+            href="#inscricao"
+          >
+            Quero garantir a minha vaga!
+          </Button>
+        </Box>
       </Box>
     </Flex>
   );

@@ -189,7 +189,7 @@ export default function SplitScreen() {
                   xl: "auto",
                 }}
                 size="lg"
-                bg="gray.900"
+                bg="blue.700"
                 _dark={{
                   bg: "blue.700",
                 }}

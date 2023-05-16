@@ -10,12 +10,14 @@ import {
   useColorModeValue,
   Link,
 } from "@chakra-ui/react";
+import { useRouter } from "next/router";
 import NextLink from "next/link";
 function Pricing() {
   const topBg = useColorModeValue("gray.100", "gray.700");
   const bottomBg = useColorModeValue("white", "gray.800");
 
   const Feature = (props) => {
+    const router = useRouter();
     return (
       <Flex align="center">
         <Flex shrink={0}>
@@ -155,7 +157,7 @@ function Pricing() {
                   align="center"
                   fontSize={{
                     base: "xl",
-                    md: "5xl",
+                    md: "4xl",
                   }}
                   fontWeight={["bold", , "extrabold"]}
                   lineHeight="tight"
@@ -165,7 +167,7 @@ function Pricing() {
                     ml={2}
                     fontSize={{
                       base: "lg",
-                      md: "2xl",
+                      md: "xl",
                     }}
                     fontWeight="medium"
                     color="gray.500"
@@ -193,12 +195,27 @@ function Pricing() {
                   >
                     <Button
                       w="300px"
-                      colorScheme="blue"
+                      bg={"blue.700"}
                       py={6}
                       width={"full"}
                       fontWeight={"bold"}
+                      color={"white"}
                     >
-                      Quero me inscrever!
+                      Quero me inscrever
+                    </Button>
+                    <Button
+                      color={"white"}
+                      mt={4}
+                      w="300px"
+                      bg={"blue.700"}
+                      py={6}
+                      width={"full"}
+                      fontWeight={"bold"}
+                      onClick={() =>
+                        router.push("https://bit.ly/inaed-conversation")
+                      }
+                    >
+                      Converse com um especialista
                     </Button>
                   </Link>
                   <Box align="center" fontWeight="semibold">
