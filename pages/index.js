@@ -65,7 +65,7 @@ export default function SplitScreen() {
                 Quero fazer a minha inscrição!
               </Button>
             </Stack>
-            <CountdownTimer targetDate={"2023-06-25T23:59:59.000Z"} />
+            <CountdownTimer targetDate={"2023-08-24T23:59:59.000Z"} />
           </Stack>
         </Flex>
         <Flex flex={1}>

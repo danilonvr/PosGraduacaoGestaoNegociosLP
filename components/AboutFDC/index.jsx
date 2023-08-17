@@ -122,7 +122,7 @@ function AboutFDC() {
             <Text />
           </Box>
           <Box w="full" h="full" display={"flex"} justifyContent={"center"}>
-            <Image src="/assets/img/guia-img.png" />
+            <Image src="/assets/img/fdc.jpg" />
           </Box>
         </SimpleGrid>
       </Box>
